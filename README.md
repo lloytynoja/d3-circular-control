@@ -2,7 +2,7 @@ D3 circular slide control
 ========
 Simple circular slide control plugin for D3.js library.
 
-![Screenshot]\(http://i.imgur.com/zTjE7iA.png)
+![Screenshot](http://i.imgur.com/zTjE7iA.png)
 
 #API
 #####decimals()
