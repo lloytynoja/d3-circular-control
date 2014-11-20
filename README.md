@@ -7,6 +7,8 @@ Simple circular slide control plugin for D3.js library.
 #API
 #####decimals()
 The threshold for reading and output value. Default is 0.
+#####draw()
+Draws the control.
 #####handleDiameter()
 The diameter of adjusting handle in pixels.
 #####handleInnerColor()
@@ -37,8 +39,6 @@ Initial value of control. Must be in bounds of `valueRangeMin` and `valueRangeMa
 The low-end of control value range.
 #####valueRangeMax()
 The high-end of control value range.
-#####draw()
-Draws the control.
 #Events
 #####slideValueChange
 When slide value is changed, event is created. Slider value is available in event field `e.detail.value`.
@@ -50,7 +50,7 @@ Example:
 Installation
 ------------
 
-Download minified version from here and include it in to your project. As this is a plugin for D3.js, it must be included as well. 
+Download minified version from [here](https://github.com/lloytynoja/d3-circular-control/blob/master/d3-circular-control.min.js) and include it in to your project. As this is a plugin for D3.js, it must be included as well. 
 
 Example:
 
